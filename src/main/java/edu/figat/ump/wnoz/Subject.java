@@ -54,9 +54,9 @@ public class Subject implements Comparable<Subject> {
 			pEndTime = "0" + endTime;
 		}
 				
-		return 	"[" + pStartTime +
+		return 	"godz. [" + pStartTime +
 				"][" + pEndTime +
-				"] " + df.format(date) + 
+				"] data: " + df.format(date) + 
 				"";
 	}
 	public String toCheck() {
